@@ -39,6 +39,8 @@
     "nyc": "^15.0.0"
   },
   "dependencies": {
-    "asn1": "^0.2.4"
+    "asn1": "^0.2.4",
+    "constants-browserify": "^1.0.0",
+    "crypto-browserify": "^3.12.0"
   }
 }

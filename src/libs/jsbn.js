@@ -36,7 +36,7 @@
  * 2014 rzcoder
  */
 
-var crypt = require('crypto');
+var crypt = require('crypto-browserify');
 var _ = require('../utils')._;
 
 // Bits per digit
