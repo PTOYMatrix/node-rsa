@@ -1,4 +1,4 @@
-var crypt = require('crypto');
+var crypt = require('crypto-browserify');
 
 module.exports = {
     getEngine: function (keyPair, options) {

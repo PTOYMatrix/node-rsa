@@ -1,5 +1,5 @@
-var crypto = require('crypto');
-var constants = require('constants');
+var crypto = require('crypto-browserify');
+var constants = require('constants-browserify');
 var schemes = require('../schemes/schemes.js');
 
 module.exports = function (keyPair, options) {

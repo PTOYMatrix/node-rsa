@@ -3,7 +3,7 @@
  */
 
 var BigInteger = require('../libs/jsbn');
-var crypt = require('crypto');
+var crypt = require('crypto-browserify');
 
 module.exports = {
     isEncryption: false,

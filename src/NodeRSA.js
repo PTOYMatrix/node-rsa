@@ -5,9 +5,9 @@
  * License MIT
  */
 
-var constants = require('constants');
+var constants = require('constants-browserify');
 var rsa = require('./libs/rsa.js');
-var crypt = require('crypto');
+var crypt = require('crypto-browserify');
 var ber = require('asn1').Ber;
 var _ = require('./utils')._;
 var utils = require('./utils');

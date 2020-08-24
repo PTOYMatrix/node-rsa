@@ -3,8 +3,8 @@
  */
 
 var BigInteger = require('../libs/jsbn');
-var crypt = require('crypto');
-var constants = require('constants');
+var crypt = require('crypto-browserify');
+var constants = require('constants-browserify');
 var SIGN_INFO_HEAD = {
     md2: Buffer.from('3020300c06082a864886f70d020205000410', 'hex'),
     md5: Buffer.from('3020300c06082a864886f70d020505000410', 'hex'),

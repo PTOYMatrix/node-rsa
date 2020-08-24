@@ -3,7 +3,7 @@
  *
  */
 
-var crypt = require('crypto');
+var crypt = require('crypto-browserify');
 
 /**
  * Break string str each maxLen symbols
